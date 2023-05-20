@@ -1,0 +1,100 @@
+.header {
+  text-align: center;
+}
+
+.form {
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+}
+
+.form__group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.form__label--required {
+  margin-left: 5px;
+  padding: 4px 6px;
+  border-radius: 3px;
+  color: #ff0000;
+}
+
+.form__error {
+  height: 20px;
+  color: #ff0000;
+  text-align: left;
+}
+
+.form__input--text input {
+  padding: 10px;
+  width: 450px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+
+  appearance: none;
+}
+
+.form__input--text-e input {
+  padding: 10px;
+  width: 450px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+
+  appearance: none;
+}
+
+.form__input--text-b input {
+  padding: 10px;
+  height: 100px;
+  width: 450px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+
+  appearance: none;
+}
+
+.form__input--text-name {
+  color: #a9a9a9;
+}
+
+.form__input--text-name-a {
+  padding-right: 30%;
+  padding-left: 5%;
+}
+
+.form__input--text-g {
+  padding-right: 350px;
+}
+
+
+
+.form__input--text input {
+  height: 20px;
+  margin-left: 20px;
+}
+
+.form__input--text-e input {
+  height: 20px;
+  margin-left: 20px;
+}
+
+.form__input--textarea textarea {
+  height: 180px;
+}
+
+.form__button {
+  margin-top: 30px;
+}
+
+.form__button-submit {
+  padding: 10px;
+  width: 30%;
+  height: 50px;
+  border: none;
+  border-radius: 3px;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}

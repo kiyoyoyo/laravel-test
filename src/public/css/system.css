@@ -1,0 +1,71 @@
+.header {
+  text-align: center;
+}
+
+.form {
+  border: 2px solid black;
+}
+
+.form-group {
+  display: flex;
+}
+
+.form__name {
+  margin-left: 10%;
+  margin-top: 10px;
+}
+
+.form__name input {
+  width: 400px;
+}
+
+.system-form__gender {
+  margin-left: 10%;
+  margin-top: 10px;
+}
+
+.system-form__day {
+  margin-left: 10%;
+  margin-top: 10px;
+}
+
+.system-form__day input {
+  width: 200px;
+}
+
+.system-form__email {
+  margin-left: 10%;
+  margin-top: 10px;
+}
+
+.system-form__email input {
+  width: 360px;
+}
+
+.system-table {
+  width: 100%;
+  text-align: center;
+}
+
+.system-table__inner {
+  margin: 30px auto;
+  width: 50%;
+}
+
+.system-table__row {
+  border-bottom: 1px solid black;
+}
+
+.system-table__header {
+  width: 50%;
+  font-weight: bold;
+  text-align: left;
+}
+
+.delete-form__item input {
+  border: none;
+}
+
+.system-form__button {
+  text-align: center;
+}
